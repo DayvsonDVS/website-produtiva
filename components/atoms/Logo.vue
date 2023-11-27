@@ -10,6 +10,6 @@
  
 <style scoped lang="scss">
 .logo {
-  width: 100%;
+  cursor: pointer;
 }
 </style>

@@ -29,6 +29,7 @@
     grid-auto-flow: column;
     max-width: 500px;
     gap: 2rem;
+    padding: 1.4rem;
   }
 
   .nav-bar__gate-button {
@@ -37,6 +38,9 @@
       grid-auto-flow: column;
       gap: 1rem;
       align-items: center;
+      background: #01AD74;
+      padding: 1.4rem;
+      border-radius: 28px;
     }
   }
 }
