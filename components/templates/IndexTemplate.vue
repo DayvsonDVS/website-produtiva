@@ -1,9 +1,20 @@
 <template>
   <div class="index-template">
     <section class="index-template__header">
-      <Header />
+      <Container>
+        <Header />
 
-      <Presentation />
+        <Presentation />
+      </Container>
+
+      <section class="index-template__body">
+        <Container>
+          <Differential />
+
+          <Services />
+        </Container>
+      </section>
+
     </section>
   </div>
 </template>
@@ -17,5 +28,10 @@
 .index-template__header {
   background: linear-gradient(to right, #05a171 0%, #00d18a 100%);
   height: 690px;
+
+  .index-template__body {
+    background: #fff;
+    height: 1380px;
+  }
 }
 </style>

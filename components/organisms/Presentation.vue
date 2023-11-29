@@ -4,7 +4,7 @@
       <div class="presentation__wrapper--text">
 
         <div class="presentation__wrapper--text-introduction">
-          <h1>Bem-Vindo(a)!</h1>
+          <h1 class="presentation__wrapper--text-introduction-title">Bem-Vindo(a)!</h1>
           <p>
             Esta é a Produtiva, uma empresa que está no mercado há 24 anos, atuando na área de Medicina e Segurança do
             Trabalho, cuidando da saúde e segurança ocupacional dos colaboradores de mais de 500 empresas, através de uma
@@ -49,33 +49,34 @@
 
     .presentation__wrapper--text {
       color: #EBFFF7;
-      margin-left: 105px;
+      margin-left: 85px;
       display: grid;
       gap: 6rem;
       max-width: 360px;
       height: 100%;
 
       .presentation__wrapper--text-introduction {
-        h1 {
+        .presentation__wrapper--text-introduction-title {
           margin-top: 5rem;
-          padding: 1rem 0rem;
+          padding: 0.4rem 0rem;
+          font-size: 48px;
         }
       }
 
       .presentation__wrapper--text-icon {
-        justify-self: center;
+        justify-self: end;
 
         #helmet {
-          width: 145px;
+          width: 125px;
           position: relative;
-          bottom: 340px;
-          left: 40px;
+          bottom: 350px;
         }
 
         #heart {
           position: relative;
-          width: 73px;
-          bottom: 270px;
+          width: 63px;
+          bottom: 300px;
+          right: 40px;
         }
       }
 

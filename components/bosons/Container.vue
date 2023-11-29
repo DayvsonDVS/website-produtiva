@@ -7,14 +7,17 @@
 <style lang="scss" scoped>
 .container {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1300px;
   height: 100%;
+
   @include for-size('phone') {
     width: 90%;
   }
+
   @include for-size('tablet') {
     width: 85%;
   }
+
   @include for-size('desktop', 'big-desktop') {
     width: 85%;
   }
