@@ -4,11 +4,11 @@
     <div class="services__wrapper">
       <h1 class="services__wrapper-title">NOSSOS SERVIÇOS</h1>
 
-      <P class="services__wrapper-text">
+      <p class="services__wrapper-text">
         Sob coordenação de profissionais especializados e experientes, realizamos os procedimentos que sua empresa precisa
         para atender à legislação e manter a sua equipe de colaboradores trabalhando de acordo com padrões adequados, na
         área de Medicina, Higiene e Segurança do trabalho.
-      </P>
+      </p>
     </div>
 
     <div class="services__items">

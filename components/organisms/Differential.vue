@@ -4,10 +4,11 @@
     <div class="differential__wrapper">
       <h1 class="differential__wrapper-title">NOSSO DIFERENCIAL</h1>
 
-      <P class="differential__wrapper-text"> Nossa estrutura é adequada para atender aos colaboradores de
-        sua empresa.
+
+      <p class="differential__wrapper-text">
+        Nossa estrutura é adequada para atender aos colaboradores de sua empresa.
         Contamos com amplas instalações, onde realizamos exames clínicos e complementares.
-      </P>
+      </p>
     </div>
 
     <div class="differential__items">
