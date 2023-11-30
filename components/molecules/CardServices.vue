@@ -26,6 +26,7 @@ defineProps<Props>()
   border: solid 1px #DBF8ED;
   border-radius: 28px;
   align-items: center;
+  background: #fff;
 
   //icons
   :nth-child(1) {

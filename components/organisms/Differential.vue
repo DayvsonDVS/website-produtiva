@@ -30,28 +30,24 @@
 <script setup lang="ts">
 const listDifferential = [
   {
-    img: '../../images/icons/doctor.svg',
+    img: '_nuxt/assets/icons/doctor.svg',
     description: "Assessoria Médica",
-    content: 'Nossos médicos estão disponíveis para prestar assessoria.',
-
+    content: 'Nossos médicos estão disponíveis para prestar assessoria.'
   },
   {
-    img: '../../images/icons/estetoscopio.svg',
+    img: '_nuxt/assets/icons/estetoscopio.svg',
     description: "Atendimento In Loco",
-    content: 'Levamos nossa estrutura para sua empresa para realização dos exames.',
-
+    content: 'Levamos nossa estrutura para sua empresa para realização dos exames.'
   },
   {
-    img: '../../images/icons/esocial.svg',
+    img: '_nuxt/assets/icons/esocial.svg',
     description: "eSocial",
-    content: 'Possuímos um software adequado ao eSocial.',
-
+    content: 'Possuímos um software adequado ao eSocial.'
   },
   {
-    img: '../../images/icons/provider.svg',
+    img: '_nuxt/assets/icons/provider.svg',
     description: "Prestadores em um só local",
-    content: 'Todos os exames são realizados em um único local.',
-
+    content: 'Todos os exames são realizados em um único local.'
   }
 ]
 

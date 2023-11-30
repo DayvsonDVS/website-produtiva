@@ -16,7 +16,7 @@ export default defineNuxtConfig({
       }
     }
   },
-
+  modules: ['nuxt-svgo'],
   components: [{ path: '@/components', pathPrefix: false }],
   dir: {
     pages: 'components/pages/'

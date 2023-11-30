@@ -14,16 +14,16 @@
 
 
         <div class="presentation__wrapper--text-icon">
-          <img id="heart" src="@/images/icons/heart.svg">
-          <img id="helmet" src="@/images/icons/helmet.svg">
+          <img id="heart" src="../../assets/icons/heart.svg">
+          <img id="helmet" src="../../assets/icons/helmet.svg">
         </div>
       </div>
 
       <div class="presentation__wrapper--image">
-        <img id="engineer" src="@/images/person/engineer.svg">
-        <img id="doctor" src="@/images/person/doctor.svg">
-        <img id="master-builder" src="@/images/person/masterBuilder.svg">
-        <img id="shield" src="@/images/icons/shield.svg">
+        <img id="engineer" src="../../assets/imgs/person/engineer.svg">
+        <img id="doctor" src="../../assets/imgs/person/doctor.svg">
+        <img id="master-builder" src="../../assets/imgs/person/masterBuilder.svg">
+        <img id="shield" src="../../assets/icons/shield.svg">
         <div class="presentation__wrapper--image-circle">
           <div class="presentation__wrapper--image--circle-shadow" />
         </div>

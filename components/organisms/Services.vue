@@ -26,7 +26,7 @@
     </div>
 
     <GateButton title="Confira todos os serviços">
-      <img src="@/images/icons/full-arrow-right.svg">
+      <img src="../../assets/icons/full-arrow-right.svg">
 
     </GateButton>
   </div>
@@ -35,31 +35,31 @@
 <script setup lang="ts">
 const listServices = [
   {
-    img: '../../images/icons/aso.svg',
+    img: '_nuxt/assets/icons/aso.svg',
     description: "ASO",
     content: 'Atestado de Saúde Ocupacional',
 
   },
   {
-    img: '../../images/icons/pcmso.svg',
+    img: '_nuxt/assets/icons/pcmso.svg',
     description: "PCMSO",
     content: 'Programa de Controle Médico de Saúde Ocupacional',
 
   },
   {
-    img: '../../images/icons/pgr.svg',
+    img: '_nuxt/assets/icons/pgr.svg',
     description: "PGR",
     content: 'Programa de Gerenciamento de Riscos',
 
   },
   {
-    img: '../../images/icons/ltcat.svg',
+    img: '_nuxt/assets/icons/ltcat.svg',
     description: "LTCAT",
     content: 'Laudo técnico de condições ambientais do trabalho',
 
   },
   {
-    img: '../../images/icons/pca.svg',
+    img: '_nuxt/assets/icons/pca.svg',
     description: "PCA",
     content: 'Programa de Conservação Auditiva',
 
@@ -71,16 +71,15 @@ const listServices = [
 <style scoped lang="scss">
 .services {
   height: max-content;
-  background: #fff;
-  padding: 1rem 2rem 2.5rem;
+  width: max-content;
+  padding: 1rem 0rem 2.5rem 0rem;
   position: relative;
-  top: -40px;
+  top: -100px;
   z-index: 6;
   display: grid;
   justify-items: center;
   text-align: center;
   gap: 5rem;
-  margin-top: 60px;
 
   .services__wrapper {
     color: #385A4E;
@@ -91,6 +90,7 @@ const listServices = [
       grid-auto-flow: row;
       justify-items: center;
       gap: 0.6rem;
+      background-color: transparent;
 
       &::after {
         content: '';
@@ -109,7 +109,7 @@ const listServices = [
   .services__items {
     display: flex;
     grid-template-columns: repeat(5, 1fr);
-    gap: 1.5rem;
+    gap: 3rem;
   }
 
   .gate-button {

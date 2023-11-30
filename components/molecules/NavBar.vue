@@ -10,7 +10,7 @@
 
     <div class="nav-bar__gate-button">
       <GateButton title="Portal do cliente">
-        <img src="@/images/icons/simple-arrow-right.svg">
+        <img src="../../assets/icons/simple-arrow-right.svg">
       </GateButton>
     </div>
   </div>

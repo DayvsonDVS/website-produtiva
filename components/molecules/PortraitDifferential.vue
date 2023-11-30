@@ -7,7 +7,7 @@
     <slot class="portrait-differential-content" name="content" />
 
     <GateButton title="Saiba mais">
-      <img src="@/images/icons/full-arrow-right.svg">
+      <img src="../../assets/icons/full-arrow-right.svg">
     </GateButton>
   </div>
 </template>
