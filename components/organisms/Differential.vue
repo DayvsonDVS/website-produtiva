@@ -2,13 +2,12 @@
   <div class="differential">
 
     <div class="differential__wrapper">
-      <h1 class="differential__wrapper-title">NOSSO DIFERENCIAL</h1>
-
-
-      <p class="differential__wrapper-text">
-        Nossa estrutura é adequada para atender aos colaboradores de sua empresa.
-        Contamos com amplas instalações, onde realizamos exames clínicos e complementares.
-      </p>
+      <Topic title="NOSSO DIFERENCIAL">
+        <p>
+          Nossa estrutura é adequada para atender aos colaboradores de sua empresa.
+          Contamos com amplas instalações, onde realizamos exames clínicos e complementares.
+        </p>
+      </Topic>
     </div>
 
     <div class="differential__items">
@@ -69,26 +68,11 @@ const listDifferential = [
   box-shadow: 0 17px 41px rgb(74, 221, 164, 20%);
 
   .differential__wrapper {
-    color: #385A4E;
-
-    .differential__wrapper-title {
-      font-size: 32px;
-      display: grid;
-      grid-auto-flow: row;
-      justify-items: center;
-      gap: 0.6rem;
-
-      &::after {
-        content: '';
-        width: 108px;
-        height: 2px;
-        background: #05A16C;
+    .topic {
+      p {
+        width: 580px;
+        font-size: 15px;
       }
-    }
-
-    .differential__wrapper-text {
-      width: 580px;
-      font-size: 15px;
     }
   }
 

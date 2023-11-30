@@ -2,13 +2,15 @@
   <div class="services">
 
     <div class="services__wrapper">
-      <h1 class="services__wrapper-title">NOSSOS SERVIÇOS</h1>
 
-      <p class="services__wrapper-text">
-        Sob coordenação de profissionais especializados e experientes, realizamos os procedimentos que sua empresa precisa
-        para atender à legislação e manter a sua equipe de colaboradores trabalhando de acordo com padrões adequados, na
-        área de Medicina, Higiene e Segurança do trabalho.
-      </p>
+      <Topic title="NOSSOS SERVIÇOS">
+        <p class="services__wrapper-text">
+          Sob coordenação de profissionais especializados e experientes, realizamos os procedimentos que sua empresa
+          precisa
+          para atender à legislação e manter a sua equipe de colaboradores trabalhando de acordo com padrões adequados, na
+          área de Medicina, Higiene e Segurança do trabalho.
+        </p>
+      </Topic>
     </div>
 
     <div class="services__items">
@@ -82,27 +84,11 @@ const listServices = [
   gap: 5rem;
 
   .services__wrapper {
-    color: #385A4E;
-
-    .services__wrapper-title {
-      font-size: 32px;
-      display: grid;
-      grid-auto-flow: row;
-      justify-items: center;
-      gap: 0.6rem;
-      background-color: transparent;
-
-      &::after {
-        content: '';
-        width: 108px;
-        height: 2px;
-        background: #05A16C;
+    .topic {
+      p {
+        width: 680px;
+        font-size: 15px;
       }
-    }
-
-    .services__wrapper-text {
-      width: 680px;
-      font-size: 15px;
     }
   }
 

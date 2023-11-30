@@ -2,43 +2,43 @@
   <div class="index-template">
     <section class="index-template__header">
       <Container>
-        <Header />
-
         <Presentation />
       </Container>
-
-      <section class="index-template__body">
-        <Container>
-          <Differential />
-
-          <div class="index-template__body-blur1" />
-
-          <Services />
-
-          <div class="index-template__body-blur2" />
-          <div class="index-template__body-blur3" />
-
-          <div class="index-template__body-exam-results">
-            <ExamResults />
-
-            <div class="index-template__body-blur4" />
-          </div>
-        </Container>
-      </section>
-
     </section>
+
+    <section class="index-template__body">
+      <Container>
+        <Differential />
+
+        <div class="index-template__body-blur1" />
+        <Services />
+
+        <div class="index-template__body-blur2" />
+        <div class="index-template__body-blur3" />
+
+        <div class="index-template__body-exam-results">
+          <ExamResults />
+
+          <div class="index-template__body-blur4" />
+        </div>
+
+        <Customers />
+      </Container>
+    </section>
+
   </div>
 </template>
  
-
 <script setup lang="ts">
 
 </script>
 
 <style scoped lang="scss">
-.index-template__header {
-  background: linear-gradient(to right, #05a171 0%, #00d18a 100%);
-  height: 690px;
+.index-template {
+  .index-template__header {
+    background: linear-gradient(to right, #05a171 0%, #00d18a 100%);
+    height: 555px;
+  }
 
   .index-template__body {
     background: #fff;
